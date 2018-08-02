@@ -1,0 +1,4536 @@
+{
+    "data" : [ {
+      "id" : 721906078595095,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-25T16:17:20.430Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 721906078595091,
+          "name" : "Backlog SIIRA - Family Guy"
+        },
+        "section" : {
+          "id" : 721906078595095,
+          "name" : "Inventario:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 721906078595095,
+          "name" : "Inventario:"
+        }
+      } ],
+      "modified_at" : "2018-08-01T13:43:07.237Z",
+      "name" : "Inventario:",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 721906078595091,
+        "name" : "Backlog SIIRA - Family Guy"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 722150618637455,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-25T17:39:29.930Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 721906078595091,
+          "name" : "Backlog SIIRA - Family Guy"
+        },
+        "section" : {
+          "id" : 722150618637455,
+          "name" : "Compras:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 722150618637455,
+          "name" : "Compras:"
+        }
+      } ],
+      "modified_at" : "2018-08-01T13:43:07.232Z",
+      "name" : "Compras:",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 721906078595091,
+        "name" : "Backlog SIIRA - Family Guy"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 731265121909346,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-07-03T15:15:26.158Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909346,
+          "name" : "Escenario 0 (0 semanas adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-07-03T15:16:24.571Z",
+      "name" : "Escenario 0 (0 semanas adicionales):",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 726836529829761,
+      "assignee" : {
+        "id" : 720107162269901,
+        "name" : "Carlos Felipe Andrés Astroza San Martín"
+      },
+      "assignee_status" : "inbox",
+      "completed" : true,
+      "completed_at" : "2018-08-01T13:45:19.160Z",
+      "created_at" : "2018-06-28T16:28:24.879Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 3702790043180,
+        "name" : "Daniela Albornoz"
+      }, {
+        "id" : 692418601580984,
+        "name" : "Fairenes Zerpa"
+      }, {
+        "id" : 714703814006908,
+        "name" : "Esteban Cea"
+      }, {
+        "id" : 720107162269912,
+        "name" : "Juan Manuel"
+      }, {
+        "id" : 720107162269901,
+        "name" : "Carlos Felipe Andrés Astroza San Martín"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 727240547837221,
+          "name" : "Sprint - FamilyGuy - 07-02->07-23"
+        },
+        "section" : {
+          "id" : 733070007523645,
+          "name" : "Comprometido:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909346,
+          "name" : "Escenario 0 (0 semanas adicionales):"
+        }
+      }, {
+        "project" : {
+          "id" : 752877670051420,
+          "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+        },
+        "section" : null
+      } ],
+      "modified_at" : "2018-08-01T13:45:20.421Z",
+      "name" : "Matrices de costo GES",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 727240547837221,
+        "name" : "Sprint - FamilyGuy - 07-02->07-23"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      }, {
+        "id" : 752877670051420,
+        "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ {
+        "id" : 726836529829763,
+        "assignee" : {
+          "id" : 3702790043180,
+          "name" : "Daniela Albornoz"
+        },
+        "assignee_status" : "upcoming",
+        "completed" : true,
+        "completed_at" : "2018-07-12T19:24:20.523Z",
+        "created_at" : "2018-06-28T16:29:03.471Z",
+        "due_at" : null,
+        "due_on" : "2018-07-12",
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        }, {
+          "id" : 3702790043180,
+          "name" : "Daniela Albornoz"
+        }, {
+          "id" : 720107162269912,
+          "name" : "Juan Manuel"
+        }, {
+          "id" : 720107162269901,
+          "name" : "Carlos Felipe Andrés Astroza San Martín"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-25T23:44:03.317Z",
+        "name" : "Falta matriz de costo de GES (distribuidores)",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 726836529829761,
+          "name" : "Matrices de costo GES"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 726836529829764,
+        "assignee" : {
+          "id" : 720107162269901,
+          "name" : "Carlos Felipe Andrés Astroza San Martín"
+        },
+        "assignee_status" : "inbox",
+        "completed" : true,
+        "completed_at" : "2018-07-25T23:44:08.066Z",
+        "created_at" : "2018-06-28T16:29:06.403Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        }, {
+          "id" : 720107162269912,
+          "name" : "Juan Manuel"
+        }, {
+          "id" : 720107162269901,
+          "name" : "Carlos Felipe Andrés Astroza San Martín"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-25T23:44:08.505Z",
+        "name" : "Crear Tabla Price&Cost GES",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 726836529829761,
+          "name" : "Matrices de costo GES"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 738321137454553,
+        "assignee" : {
+          "id" : 720107162269901,
+          "name" : "Carlos Felipe Andrés Astroza San Martín"
+        },
+        "assignee_status" : "inbox",
+        "completed" : true,
+        "completed_at" : "2018-07-25T23:39:58.142Z",
+        "created_at" : "2018-07-10T14:21:15.570Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        }, {
+          "id" : 720107162269912,
+          "name" : "Juan Manuel"
+        }, {
+          "id" : 720107162269901,
+          "name" : "Carlos Felipe Andrés Astroza San Martín"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-25T23:40:26.375Z",
+        "name" : "Modificar PurchaseSummaryGES para que utilice Tabla Price&Cost GES para distribuidores",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 726836529829761,
+          "name" : "Matrices de costo GES"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      } ],
+      "tags" : [ {
+        "id" : 726520495408964,
+        "name" : "5"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 731073525592671,
+      "assignee" : {
+        "id" : 720107162269901,
+        "name" : "Carlos Felipe Andrés Astroza San Martín"
+      },
+      "assignee_status" : "inbox",
+      "completed" : true,
+      "completed_at" : "2018-08-01T13:45:19.160Z",
+      "created_at" : "2018-07-03T12:59:03.625Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 720107162269912,
+        "name" : "Juan Manuel"
+      }, {
+        "id" : 720107162269901,
+        "name" : "Carlos Felipe Andrés Astroza San Martín"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 727240547837221,
+          "name" : "Sprint - FamilyGuy - 07-02->07-23"
+        },
+        "section" : {
+          "id" : 733070007523645,
+          "name" : "Comprometido:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909346,
+          "name" : "Escenario 0 (0 semanas adicionales):"
+        }
+      }, {
+        "project" : {
+          "id" : 752877670051420,
+          "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+        },
+        "section" : null
+      } ],
+      "modified_at" : "2018-08-01T13:45:20.936Z",
+      "name" : "Re-Definiciones de GES para incluir Isapre",
+      "notes" : "     Se define la integración de costos aperturada por proveedor y distribuidor, adicionalmente aperturar por Isapre. Para esto último debe venir aperturado en la matriz de costo, debe ser validado desde SB. \n     El archivo de la rotación debiese pisar el 100% del archivo anterior, no complementarlo. Revisión y corrección desde Pricing.\n     Incluir campo \"Isapre\" en el Vademecum de tipo texto que acepta: Colmena y Consalud para Soclifar y sólo Colmena para CMK (Pricing/SB).\n     La rotación debe ser abierta por Isapre para ser aperturado en la grilla de compra (Pricing).\n     Debe revisarse la cuadratura a unidad logística para el distribuidor (Pricing).\n     Se consultó cuál es el proceso una vez que se gestiona una orden con el distribuidor y esta no llega completa. Adicionalmente revisar que una vez que se genere una OC para el distribuidor por la rotación este deje de aparecer en la compra, aún cuando este la rotación cargada, dado que ya se compró para que se pueda gestionar la compra que no llega con el proveedor (Pricing).\n     Permitir gestión de GES por compras especiales para despachos directos a local, tanto para proveedor como distribuidor (Pricing).\n     Se debe quitar el faltante del archivo de la rotación, SB lo incluirá de manera manual al momento de comprar (Pricing/SB).\n     Dividir OC por Isapre. Esto implica generar un nuevo filtro para generar las OC’s el cuál permita separarlas por Isapre (Pricing). \n\n",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 727240547837221,
+        "name" : "Sprint - FamilyGuy - 07-02->07-23"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      }, {
+        "id" : 752877670051420,
+        "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ {
+        "id" : 738321137454546,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : false,
+        "completed_at" : null,
+        "created_at" : "2018-07-10T14:18:47.972Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-10T14:18:54.099Z",
+        "name" : "Aperturar por isapre VADEMECUM",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 731073525592671,
+          "name" : "Re-Definiciones de GES para incluir Isapre"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 738321137454547,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : false,
+        "completed_at" : null,
+        "created_at" : "2018-07-10T14:18:56.027Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-10T14:18:58.071Z",
+        "name" : "Aperturar por isapre Rotación",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 731073525592671,
+          "name" : "Re-Definiciones de GES para incluir Isapre"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 738321137454548,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : false,
+        "completed_at" : null,
+        "created_at" : "2018-07-10T14:19:02.161Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-10T14:19:20.095Z",
+        "name" : "Aperturar por isapre PurchaseSummaryGES",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 731073525592671,
+          "name" : "Re-Definiciones de GES para incluir Isapre"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 738321137454549,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : false,
+        "completed_at" : null,
+        "created_at" : "2018-07-10T14:19:23.998Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-10T14:20:03.374Z",
+        "name" : "Aperturar por isapre (IdZona) Generación OOCC GES. El resto de las interfaces de compra debe utilizar IdZona 37",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 731073525592671,
+          "name" : "Re-Definiciones de GES para incluir Isapre"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 738321137454550,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : false,
+        "completed_at" : null,
+        "created_at" : "2018-07-10T14:19:52.376Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-10T14:20:22.831Z",
+        "name" : "Modificar Visualización de OOCC (Carrito de Compra)",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 731073525592671,
+          "name" : "Re-Definiciones de GES para incluir Isapre"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 738321137454551,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : false,
+        "completed_at" : null,
+        "created_at" : "2018-07-10T14:20:26.027Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-10T14:30:04.157Z",
+        "name" : "Quitar Faltante de archivo de Rotación",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 731073525592671,
+          "name" : "Re-Definiciones de GES para incluir Isapre"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      } ],
+      "tags" : [ {
+        "id" : 731073525592660,
+        "name" : "Bloqueo Cliente"
+      }, {
+        "id" : 736386226508890,
+        "name" : "76"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 731073525592664,
+      "assignee" : {
+        "id" : 3702790043180,
+        "name" : "Daniela Albornoz"
+      },
+      "assignee_status" : "upcoming",
+      "completed" : true,
+      "completed_at" : "2018-08-01T13:45:24.397Z",
+      "created_at" : "2018-07-03T12:48:26.099Z",
+      "due_at" : null,
+      "due_on" : "2018-07-19",
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 3702790043180,
+        "name" : "Daniela Albornoz"
+      }, {
+        "id" : 692418601580984,
+        "name" : "Fairenes Zerpa"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 727240547837221,
+          "name" : "Sprint - FamilyGuy - 07-02->07-23"
+        },
+        "section" : {
+          "id" : 733070007523646,
+          "name" : "Deseable:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909346,
+          "name" : "Escenario 0 (0 semanas adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-08-01T13:45:24.696Z",
+      "name" : "Empezar Marcha Blanca Sistémica",
+      "notes" : "Debió empezar el 25 de junio",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 727240547837221,
+        "name" : "Sprint - FamilyGuy - 07-02->07-23"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ {
+        "id" : 731073525592666,
+        "assignee" : {
+          "id" : 720107162269923,
+          "name" : "Christopher Thompson"
+        },
+        "assignee_status" : "inbox",
+        "completed" : true,
+        "completed_at" : "2018-07-10T16:35:08.184Z",
+        "created_at" : "2018-07-03T12:50:10.249Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        }, {
+          "id" : 720107162269923,
+          "name" : "Christopher Thompson"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-10T16:35:08.744Z",
+        "name" : "[Duplicate] Mantedor de BuyerId",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 731073525592664,
+          "name" : "Empezar Marcha Blanca Sistémica"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 731073525592668,
+        "assignee" : {
+          "id" : 692418601580984,
+          "name" : "Fairenes Zerpa"
+        },
+        "assignee_status" : "inbox",
+        "completed" : true,
+        "completed_at" : "2018-07-19T23:20:10.928Z",
+        "created_at" : "2018-07-06T20:36:04.109Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        }, {
+          "id" : 3702790043180,
+          "name" : "Daniela Albornoz"
+        }, {
+          "id" : 692418601580984,
+          "name" : "Fairenes Zerpa"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-19T23:20:11.354Z",
+        "name" : "Enviar automáticamente OCs de lab 3128",
+        "notes" : "Mail de Rodrigo Muñoz:\n\n\nGabriel,\n \nPara empezar probemos con el laboratorio 3128, este no producirá ruido, favor nos avisan siempre que generan las OCs para considerarlas. María Herrera ve este laboratorio y dio la sugerencia.\n \nCristian, la idea es que se informen los buyer que emiten cada OC y si hace a través del ERP que se indique con un identificador particular.\n \nSaludos.",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 731073525592664,
+          "name" : "Empezar Marcha Blanca Sistémica"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ {
+          "id" : 743143042990042,
+          "assignee" : null,
+          "assignee_status" : "upcoming",
+          "completed" : true,
+          "completed_at" : "2018-07-13T13:42:56.565Z",
+          "created_at" : "2018-07-13T13:27:04.758Z",
+          "due_at" : null,
+          "due_on" : null,
+          "followers" : [ {
+            "id" : 3702790043180,
+            "name" : "Daniela Albornoz"
+          } ],
+          "hearted" : false,
+          "hearts" : [ ],
+          "liked" : false,
+          "likes" : [ ],
+          "memberships" : [ ],
+          "modified_at" : "2018-07-13T13:42:56.839Z",
+          "name" : "Crear tabla con productos dentro de marcha blanca",
+          "notes" : "",
+          "num_hearts" : 0,
+          "num_likes" : 0,
+          "parent" : {
+            "id" : 731073525592668,
+            "name" : "Enviar automáticamente OCs de lab 3128"
+          },
+          "projects" : [ ],
+          "start_on" : null,
+          "subtasks" : [ ],
+          "tags" : [ ],
+          "workspace" : {
+            "id" : 2647249338119,
+            "name" : "pricing.cl"
+          }
+        }, {
+          "id" : 743143042990043,
+          "assignee" : null,
+          "assignee_status" : "upcoming",
+          "completed" : true,
+          "completed_at" : "2018-07-13T13:43:01.666Z",
+          "created_at" : "2018-07-13T13:27:12.999Z",
+          "due_at" : null,
+          "due_on" : null,
+          "followers" : [ {
+            "id" : 3702790043180,
+            "name" : "Daniela Albornoz"
+          } ],
+          "hearted" : false,
+          "hearts" : [ ],
+          "liked" : false,
+          "likes" : [ ],
+          "memberships" : [ ],
+          "modified_at" : "2018-07-13T13:43:01.947Z",
+          "name" : "Filtrar envío de compras con tabla anterior",
+          "notes" : "",
+          "num_hearts" : 0,
+          "num_likes" : 0,
+          "parent" : {
+            "id" : 731073525592668,
+            "name" : "Enviar automáticamente OCs de lab 3128"
+          },
+          "projects" : [ ],
+          "start_on" : null,
+          "subtasks" : [ ],
+          "tags" : [ ],
+          "workspace" : {
+            "id" : 2647249338119,
+            "name" : "pricing.cl"
+          }
+        } ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 750944465023840,
+        "assignee" : {
+          "id" : 3702790043180,
+          "name" : "Daniela Albornoz"
+        },
+        "assignee_status" : "upcoming",
+        "completed" : false,
+        "completed_at" : null,
+        "created_at" : "2018-07-19T22:42:46.958Z",
+        "due_at" : null,
+        "due_on" : "2018-07-19",
+        "followers" : [ {
+          "id" : 3702790043180,
+          "name" : "Daniela Albornoz"
+        }, {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        }, {
+          "id" : 692418601580984,
+          "name" : "Fairenes Zerpa"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-25T15:50:54.922Z",
+        "name" : "Enviar información OC desde PRICING",
+        "notes" : "[SalcobrandAbastecimiento].[purchase].[SentPurchaseOrders]",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 731073525592664,
+          "name" : "Empezar Marcha Blanca Sistémica"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 750944465023845,
+        "assignee" : {
+          "id" : 3702790043180,
+          "name" : "Daniela Albornoz"
+        },
+        "assignee_status" : "upcoming",
+        "completed" : false,
+        "completed_at" : null,
+        "created_at" : "2018-07-19T22:49:58.858Z",
+        "due_at" : null,
+        "due_on" : "2018-07-19",
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        }, {
+          "id" : 692418601580984,
+          "name" : "Fairenes Zerpa"
+        }, {
+          "id" : 3702790043180,
+          "name" : "Daniela Albornoz"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-26T16:10:40.350Z",
+        "name" : "Recibir información de compra PRICING en carga cada media hora",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 731073525592664,
+          "name" : "Empezar Marcha Blanca Sistémica"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ {
+          "id" : 750944465023847,
+          "assignee" : {
+            "id" : 2647249201907,
+            "name" : "Gabriel Espinoza"
+          },
+          "assignee_status" : "today",
+          "completed" : true,
+          "completed_at" : "2018-07-26T16:10:40.049Z",
+          "created_at" : "2018-07-19T23:04:06.711Z",
+          "due_at" : null,
+          "due_on" : "2018-07-24",
+          "followers" : [ {
+            "id" : 3702790043180,
+            "name" : "Daniela Albornoz"
+          }, {
+            "id" : 2647249201907,
+            "name" : "Gabriel Espinoza"
+          } ],
+          "hearted" : false,
+          "hearts" : [ ],
+          "liked" : false,
+          "likes" : [ ],
+          "memberships" : [ ],
+          "modified_at" : "2018-07-26T16:10:40.589Z",
+          "name" : "Informar información faltante en archivo de cada media hora (store y fecha recepción) e indicar que todo el resto está OK!",
+          "notes" : "",
+          "num_hearts" : 0,
+          "num_likes" : 0,
+          "parent" : {
+            "id" : 750944465023845,
+            "name" : "Recibir información de compra PRICING en carga cada media hora"
+          },
+          "projects" : [ ],
+          "start_on" : null,
+          "subtasks" : [ ],
+          "tags" : [ ],
+          "workspace" : {
+            "id" : 2647249338119,
+            "name" : "pricing.cl"
+          }
+        } ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 750944465023846,
+        "assignee" : {
+          "id" : 3702790043180,
+          "name" : "Daniela Albornoz"
+        },
+        "assignee_status" : "inbox",
+        "completed" : true,
+        "completed_at" : "2018-07-19T23:07:06.639Z",
+        "created_at" : "2018-07-19T23:05:14.329Z",
+        "due_at" : null,
+        "due_on" : "2018-07-19",
+        "followers" : [ {
+          "id" : 3702790043180,
+          "name" : "Daniela Albornoz"
+        }, {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-19T23:19:46.161Z",
+        "name" : "Actualizar estado \"was processed\" de la OC en SIIRA",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 731073525592664,
+          "name" : "Empezar Marcha Blanca Sistémica"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 750944465023870,
+        "assignee" : {
+          "id" : 3702790043180,
+          "name" : "Daniela Albornoz"
+        },
+        "assignee_status" : "inbox",
+        "completed" : true,
+        "completed_at" : "2018-07-19T23:16:27.023Z",
+        "created_at" : "2018-07-19T23:15:05.246Z",
+        "due_at" : null,
+        "due_on" : "2018-07-19",
+        "followers" : [ {
+          "id" : 3702790043180,
+          "name" : "Daniela Albornoz"
+        }, {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-19T23:19:29.158Z",
+        "name" : "Reconocer OC enviada y confirmada para no enviarla de nuevo",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 731073525592664,
+          "name" : "Empezar Marcha Blanca Sistémica"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 750944465023871,
+        "assignee" : {
+          "id" : 3702790043180,
+          "name" : "Daniela Albornoz"
+        },
+        "assignee_status" : "upcoming",
+        "completed" : true,
+        "completed_at" : "2018-07-25T21:54:09.705Z",
+        "created_at" : "2018-07-19T23:15:26.115Z",
+        "due_at" : null,
+        "due_on" : "2018-07-20",
+        "followers" : [ {
+          "id" : 3702790043180,
+          "name" : "Daniela Albornoz"
+        }, {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-25T21:54:10.097Z",
+        "name" : "Reconocer OC enviada y no confirmada para enviarla después de dos horas",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 731073525592664,
+          "name" : "Empezar Marcha Blanca Sistémica"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      } ],
+      "tags" : [ {
+        "id" : 721906078595098,
+        "name" : "Obligatorio"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 731265121909349,
+      "assignee" : {
+        "id" : 720107162269901,
+        "name" : "Carlos Felipe Andrés Astroza San Martín"
+      },
+      "assignee_status" : "inbox",
+      "completed" : true,
+      "completed_at" : "2018-07-10T20:29:02.879Z",
+      "created_at" : "2018-07-03T15:46:17.386Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 3702790043180,
+        "name" : "Daniela Albornoz"
+      }, {
+        "id" : 720107162269901,
+        "name" : "Carlos Felipe Andrés Astroza San Martín"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 727240547837221,
+          "name" : "Sprint - FamilyGuy - 07-02->07-23"
+        },
+        "section" : {
+          "id" : 733070007523645,
+          "name" : "Comprometido:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909346,
+          "name" : "Escenario 0 (0 semanas adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-08-01T14:10:40.707Z",
+      "name" : "Realizar modificación de zonas del CD",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 727240547837221,
+        "name" : "Sprint - FamilyGuy - 07-02->07-23"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ {
+        "id" : 731265121909350,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : true,
+        "completed_at" : "2018-07-23T13:10:53.994Z",
+        "created_at" : "2018-07-03T15:46:24.515Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-23T13:10:54.090Z",
+        "name" : "Descargar configuración actual",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 731265121909349,
+          "name" : "Realizar modificación de zonas del CD"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 731265121909351,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : true,
+        "completed_at" : "2018-07-23T13:10:54.463Z",
+        "created_at" : "2018-07-03T15:46:28.981Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-23T13:10:54.552Z",
+        "name" : "Resetear configuración de grupos",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 731265121909349,
+          "name" : "Realizar modificación de zonas del CD"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 731265121909352,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : true,
+        "completed_at" : "2018-07-23T13:10:55.237Z",
+        "created_at" : "2018-07-03T15:46:40.704Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-23T13:10:55.326Z",
+        "name" : "Configurar nuevas zonas",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 731265121909349,
+          "name" : "Realizar modificación de zonas del CD"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 731265121909353,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : true,
+        "completed_at" : "2018-07-23T13:10:55.237Z",
+        "created_at" : "2018-07-03T15:46:44.964Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-23T13:10:55.773Z",
+        "name" : "Pedir a usuarios que re-configuren",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 731265121909349,
+          "name" : "Realizar modificación de zonas del CD"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      } ],
+      "tags" : [ {
+        "id" : 726836529829806,
+        "name" : "17"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 722150618637572,
+      "assignee" : {
+        "id" : 720107162269901,
+        "name" : "Carlos Felipe Andrés Astroza San Martín"
+      },
+      "assignee_status" : "inbox",
+      "completed" : true,
+      "completed_at" : "2018-07-20T17:01:10.294Z",
+      "created_at" : "2018-06-25T19:23:36.341Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 692418601580984,
+        "name" : "Fairenes Zerpa"
+      }, {
+        "id" : 720107162269901,
+        "name" : "Carlos Felipe Andrés Astroza San Martín"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 720096004860910,
+          "name" : "Mejoras SIIRA"
+        },
+        "section" : {
+          "id" : 722150618637555,
+          "name" : "Compras:"
+        }
+      }, {
+        "project" : {
+          "id" : 727240547837221,
+          "name" : "Sprint - FamilyGuy - 07-02->07-23"
+        },
+        "section" : {
+          "id" : 733070007523645,
+          "name" : "Comprometido:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909346,
+          "name" : "Escenario 0 (0 semanas adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-07-20T17:01:10.625Z",
+      "name" : "Una vez comprado el grupo, poder eliminar aquellas OC de la grilla “Parámetros de Compra” que ya no desean gestionar y por lo tanto volver el semáforo al color que corresponda.",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 720096004860910,
+        "name" : "Mejoras SIIRA"
+      }, {
+        "id" : 727240547837221,
+        "name" : "Sprint - FamilyGuy - 07-02->07-23"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726836529829787,
+        "name" : "8"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 722150618637561,
+      "assignee" : {
+        "id" : 720107162269901,
+        "name" : "Carlos Felipe Andrés Astroza San Martín"
+      },
+      "assignee_status" : "inbox",
+      "completed" : true,
+      "completed_at" : "2018-07-23T13:28:28.650Z",
+      "created_at" : "2018-06-25T19:23:32.440Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 692418601580984,
+        "name" : "Fairenes Zerpa"
+      }, {
+        "id" : 3702790043180,
+        "name" : "Daniela Albornoz"
+      }, {
+        "id" : 723304615038203,
+        "name" : "Diego Fuenzalida"
+      }, {
+        "id" : 723300802641880,
+        "name" : "Francisco Mejías"
+      }, {
+        "id" : 720107162269901,
+        "name" : "Carlos Felipe Andrés Astroza San Martín"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 720096004860910,
+          "name" : "Mejoras SIIRA"
+        },
+        "section" : {
+          "id" : 722150618637555,
+          "name" : "Compras:"
+        }
+      }, {
+        "project" : {
+          "id" : 727240547837221,
+          "name" : "Sprint - FamilyGuy - 07-02->07-23"
+        },
+        "section" : {
+          "id" : 733070007523646,
+          "name" : "Deseable:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909346,
+          "name" : "Escenario 0 (0 semanas adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-07-23T13:28:30.120Z",
+      "name" : "División de Compras por Unidades",
+      "notes" : "Como comprador de SIIRA\nQuisiera que la división de OOCC ocurriese con un algoritmo que corte la cantidad de cada SKU (en vez de cortar el SKU completo) \nPara abastecer el CD y no quedar corto con ningún SKU.",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 720096004860910,
+        "name" : "Mejoras SIIRA"
+      }, {
+        "id" : 727240547837221,
+        "name" : "Sprint - FamilyGuy - 07-02->07-23"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ {
+        "id" : 732832483534755,
+        "assignee" : {
+          "id" : 723304615038203,
+          "name" : "Diego Fuenzalida"
+        },
+        "assignee_status" : "inbox",
+        "completed" : true,
+        "completed_at" : "2018-07-06T14:58:27.516Z",
+        "created_at" : "2018-07-04T14:34:16.793Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        }, {
+          "id" : 723304615038203,
+          "name" : "Diego Fuenzalida"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-06T15:37:45.917Z",
+        "name" : "Definir algoritmo de división e implementarlo ",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 722150618637561,
+          "name" : "División de Compras por Unidades"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ {
+          "id" : 732737634439245,
+          "assignee" : null,
+          "assignee_status" : "upcoming",
+          "completed" : true,
+          "completed_at" : "2018-07-06T14:57:08.214Z",
+          "created_at" : "2018-07-04T19:25:05.280Z",
+          "due_at" : null,
+          "due_on" : null,
+          "followers" : [ {
+            "id" : 723300802641880,
+            "name" : "Francisco Mejías"
+          } ],
+          "hearted" : false,
+          "hearts" : [ ],
+          "liked" : false,
+          "likes" : [ ],
+          "memberships" : [ ],
+          "modified_at" : "2018-07-06T14:57:08.357Z",
+          "name" : "Definir cómo dividir OOCC",
+          "notes" : "",
+          "num_hearts" : 0,
+          "num_likes" : 0,
+          "parent" : {
+            "id" : 732832483534755,
+            "name" : "Definir algoritmo de división e implementarlo "
+          },
+          "projects" : [ ],
+          "start_on" : null,
+          "subtasks" : [ ],
+          "tags" : [ {
+            "id" : 723700486066262,
+            "name" : "5"
+          } ],
+          "workspace" : {
+            "id" : 2647249338119,
+            "name" : "pricing.cl"
+          }
+        }, {
+          "id" : 732737634439246,
+          "assignee" : null,
+          "assignee_status" : "upcoming",
+          "completed" : true,
+          "completed_at" : "2018-07-06T14:57:13.812Z",
+          "created_at" : "2018-07-04T19:25:34.654Z",
+          "due_at" : null,
+          "due_on" : null,
+          "followers" : [ {
+            "id" : 723300802641880,
+            "name" : "Francisco Mejías"
+          } ],
+          "hearted" : false,
+          "hearts" : [ ],
+          "liked" : false,
+          "likes" : [ ],
+          "memberships" : [ ],
+          "modified_at" : "2018-07-06T14:57:13.887Z",
+          "name" : "División de compras por unidades",
+          "notes" : "",
+          "num_hearts" : 0,
+          "num_likes" : 0,
+          "parent" : {
+            "id" : 732832483534755,
+            "name" : "Definir algoritmo de división e implementarlo "
+          },
+          "projects" : [ ],
+          "start_on" : null,
+          "subtasks" : [ ],
+          "tags" : [ {
+            "id" : 723700486066262,
+            "name" : "5"
+          } ],
+          "workspace" : {
+            "id" : 2647249338119,
+            "name" : "pricing.cl"
+          }
+        } ],
+        "tags" : [ {
+          "id" : 723700486066262,
+          "name" : "5"
+        } ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 734474113725104,
+        "assignee" : {
+          "id" : 720107162269901,
+          "name" : "Carlos Felipe Andrés Astroza San Martín"
+        },
+        "assignee_status" : "inbox",
+        "completed" : true,
+        "completed_at" : "2018-07-23T13:28:10.316Z",
+        "created_at" : "2018-07-06T15:00:18.877Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 723300802641880,
+          "name" : "Francisco Mejías"
+        }, {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        }, {
+          "id" : 720107162269901,
+          "name" : "Carlos Felipe Andrés Astroza San Martín"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-23T13:28:10.595Z",
+        "name" : "Integrar algoritmo de división OOCC con interfaz",
+        "notes" : "En la carpeta:\n\nT:\\Para Gabo\n\nSe encuentra el código del algoritmo de división de OOCC para que lo puedan integrar con la interfaz.\n\nEste algoritmo actualiza la tabla: [SalcobrandAbastecimiento].[aux].[PurchaseOrderDivision]\nla cual debería poblarse con los datos que defina el usuario en la interfaz.",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 722150618637561,
+          "name" : "División de Compras por Unidades"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 733577638987149,
+        "assignee" : {
+          "id" : 720107162269901,
+          "name" : "Carlos Felipe Andrés Astroza San Martín"
+        },
+        "assignee_status" : "inbox",
+        "completed" : true,
+        "completed_at" : "2018-07-23T13:28:11.937Z",
+        "created_at" : "2018-07-05T14:03:44.763Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        }, {
+          "id" : 720107162269901,
+          "name" : "Carlos Felipe Andrés Astroza San Martín"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-23T13:28:12.112Z",
+        "name" : "Implementar interfaz de usuario",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 722150618637561,
+          "name" : "División de Compras por Unidades"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      } ],
+      "tags" : [ {
+        "id" : 726520495408961,
+        "name" : "10"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 722150618637456,
+      "assignee" : {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      },
+      "assignee_status" : "inbox",
+      "completed" : true,
+      "completed_at" : "2018-07-25T20:07:56.894Z",
+      "created_at" : "2018-06-25T17:39:32.249Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 727240547837221,
+          "name" : "Sprint - FamilyGuy - 07-02->07-23"
+        },
+        "section" : {
+          "id" : 733070007523646,
+          "name" : "Deseable:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909346,
+          "name" : "Escenario 0 (0 semanas adicionales):"
+        }
+      }, {
+        "project" : {
+          "id" : 752877670051420,
+          "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+        },
+        "section" : null
+      } ],
+      "modified_at" : "2018-07-25T20:07:57.227Z",
+      "name" : "Monitoreo de OOCC",
+      "notes" : "Como Comprador, \nme interesa saber en todo momento las órdenes de compra que se han generado y su estado, \ncon el fin de hacerle seguimiento y comprar más o menos unidades cada vez que miro mis interfaces",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 727240547837221,
+        "name" : "Sprint - FamilyGuy - 07-02->07-23"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      }, {
+        "id" : 752877670051420,
+        "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 721906078595098,
+        "name" : "Obligatorio"
+      }, {
+        "id" : 726836529829786,
+        "name" : "27"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 731265121909348,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-07-03T15:16:09.325Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909348,
+          "name" : "Escenario 1 (2 semanas adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-07-03T16:18:08.175Z",
+      "name" : "Escenario 1 (2 semanas adicionales):",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 722150618637577,
+      "assignee" : {
+        "id" : 720107162269912,
+        "name" : "Juan Manuel"
+      },
+      "assignee_status" : "inbox",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-25T19:23:38.111Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 720107162269912,
+        "name" : "Juan Manuel"
+      }, {
+        "id" : 714703814006908,
+        "name" : "Esteban Cea"
+      }, {
+        "id" : 714703814006919,
+        "name" : "Daniela Breguel"
+      }, {
+        "id" : 692418601580984,
+        "name" : "Fairenes Zerpa"
+      }, {
+        "id" : 3702790043180,
+        "name" : "Daniela Albornoz"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 720096004860910,
+          "name" : "Mejoras SIIRA"
+        },
+        "section" : {
+          "id" : 722150618637555,
+          "name" : "Compras:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909348,
+          "name" : "Escenario 1 (2 semanas adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-07-30T21:05:01.844Z",
+      "name" : "Incorporar Buying múltiple a grillas de compra",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 720096004860910,
+        "name" : "Mejoras SIIRA"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726836529829766,
+        "name" : "4"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 726836529829765,
+      "assignee" : {
+        "id" : 720107162269923,
+        "name" : "Christopher Thompson"
+      },
+      "assignee_status" : "inbox",
+      "completed" : true,
+      "completed_at" : "2018-08-01T13:45:43.190Z",
+      "created_at" : "2018-06-28T16:42:46.611Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 720107162269923,
+        "name" : "Christopher Thompson"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 727240547837221,
+          "name" : "Sprint - FamilyGuy - 07-02->07-23"
+        },
+        "section" : {
+          "id" : 733070007523645,
+          "name" : "Comprometido:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909348,
+          "name" : "Escenario 1 (2 semanas adicionales):"
+        }
+      }, {
+        "project" : {
+          "id" : 752877670051420,
+          "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+        },
+        "section" : null
+      } ],
+      "modified_at" : "2018-08-01T15:09:57.613Z",
+      "name" : "Implementar mantenedor de usuarios",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 727240547837221,
+        "name" : "Sprint - FamilyGuy - 07-02->07-23"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      }, {
+        "id" : 752877670051420,
+        "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ {
+        "id" : 738722237089176,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : true,
+        "completed_at" : "2018-07-11T13:25:13.993Z",
+        "created_at" : "2018-07-10T16:34:17.942Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 720107162269923,
+          "name" : "Christopher Thompson"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-11T13:25:14.093Z",
+        "name" : "mantenedor de permisos de acceso",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 726836529829765,
+          "name" : "Implementar mantenedor de usuarios"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 738722237089177,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : true,
+        "completed_at" : "2018-07-11T13:25:15.763Z",
+        "created_at" : "2018-07-10T16:34:22.754Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 720107162269923,
+          "name" : "Christopher Thompson"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-11T13:25:15.857Z",
+        "name" : "migracion de permisos de acceso",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 726836529829765,
+          "name" : "Implementar mantenedor de usuarios"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 738722237089178,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : true,
+        "completed_at" : "2018-07-17T18:57:33.957Z",
+        "created_at" : "2018-07-10T16:34:24.548Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 720107162269923,
+          "name" : "Christopher Thompson"
+        }, {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-19T19:51:14.880Z",
+        "name" : "mantenedor de UserRules con modificacion de VMI y SupplyChain",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 726836529829765,
+          "name" : "Implementar mantenedor de usuarios"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 747408762112932,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : true,
+        "completed_at" : "2018-07-18T19:49:25.875Z",
+        "created_at" : "2018-07-17T18:57:47.793Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 720107162269923,
+          "name" : "Christopher Thompson"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-18T19:49:40.885Z",
+        "name" : "Asignación de comprador Farma",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 726836529829765,
+          "name" : "Implementar mantenedor de usuarios"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 747408762112933,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : true,
+        "completed_at" : "2018-07-18T19:49:26.985Z",
+        "created_at" : "2018-07-17T18:57:56.422Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 720107162269923,
+          "name" : "Christopher Thompson"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-18T19:49:42.433Z",
+        "name" : "Asignación de comprador consumo",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 726836529829765,
+          "name" : "Implementar mantenedor de usuarios"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 749129296709560,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : true,
+        "completed_at" : "2018-07-18T19:49:59.958Z",
+        "created_at" : "2018-07-18T19:49:29.152Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 720107162269923,
+          "name" : "Christopher Thompson"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-18T19:50:00.057Z",
+        "name" : "Asignación de comprador Generic",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 726836529829765,
+          "name" : "Implementar mantenedor de usuarios"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 749129296709561,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : true,
+        "completed_at" : "2018-07-18T19:50:00.541Z",
+        "created_at" : "2018-07-18T19:49:48.751Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 720107162269923,
+          "name" : "Christopher Thompson"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-18T19:50:00.637Z",
+        "name" : "Asignación de comprador Ges",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 726836529829765,
+          "name" : "Implementar mantenedor de usuarios"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 749129296709562,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : true,
+        "completed_at" : "2018-07-19T13:32:50.419Z",
+        "created_at" : "2018-07-18T19:50:01.094Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 720107162269923,
+          "name" : "Christopher Thompson"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-19T13:32:50.515Z",
+        "name" : "Mejora a modulo de entrega de permisos.",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 726836529829765,
+          "name" : "Implementar mantenedor de usuarios"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 749233534318898,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : true,
+        "completed_at" : "2018-07-20T14:44:59.318Z",
+        "created_at" : "2018-07-19T13:32:57.229Z",
+        "due_at" : null,
+        "due_on" : "2018-07-19",
+        "followers" : [ {
+          "id" : 720107162269923,
+          "name" : "Christopher Thompson"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-20T14:44:59.461Z",
+        "name" : "Testing de módulo completo. ",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 726836529829765,
+          "name" : "Implementar mantenedor de usuarios"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 753034673519993,
+        "assignee" : {
+          "id" : 720107162269923,
+          "name" : "Christopher Thompson"
+        },
+        "assignee_status" : "inbox",
+        "completed" : true,
+        "completed_at" : "2018-07-23T20:52:25.975Z",
+        "created_at" : "2018-07-23T13:17:32.911Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        }, {
+          "id" : 720107162269923,
+          "name" : "Christopher Thompson"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-23T20:52:26.411Z",
+        "name" : "Aplicar cambios BD en TROYA",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 726836529829765,
+          "name" : "Implementar mantenedor de usuarios"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 753053164151593,
+        "assignee" : {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        },
+        "assignee_status" : "today",
+        "completed" : true,
+        "completed_at" : "2018-08-01T15:09:57.319Z",
+        "created_at" : "2018-07-23T13:17:45.226Z",
+        "due_at" : null,
+        "due_on" : "2018-07-30",
+        "followers" : [ {
+          "id" : 2647249201907,
+          "name" : "Gabriel Espinoza"
+        }, {
+          "id" : 720107162269923,
+          "name" : "Christopher Thompson"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-08-01T15:09:59.069Z",
+        "name" : "Revisar implementación",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 726836529829765,
+          "name" : "Implementar mantenedor de usuarios"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      } ],
+      "tags" : [ {
+        "id" : 726836529829783,
+        "name" : "15"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 722150618637459,
+      "assignee" : {
+        "id" : 9439979848522,
+        "name" : "Jorge Ibacache"
+      },
+      "assignee_status" : "inbox",
+      "completed" : true,
+      "completed_at" : "2018-07-26T15:42:25.937Z",
+      "created_at" : "2018-06-25T20:01:42.570Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 720107162269901,
+        "name" : "Carlos Felipe Andrés Astroza San Martín"
+      }, {
+        "id" : 9439979848522,
+        "name" : "Jorge Ibacache"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 727240547837221,
+          "name" : "Sprint - FamilyGuy - 07-02->07-23"
+        },
+        "section" : {
+          "id" : 733070007523645,
+          "name" : "Comprometido:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909348,
+          "name" : "Escenario 1 (2 semanas adicionales):"
+        }
+      }, {
+        "project" : {
+          "id" : 752877670051420,
+          "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+        },
+        "section" : null
+      } ],
+      "modified_at" : "2018-07-26T15:42:55.349Z",
+      "name" : "Mejorar flujo de estados de aprobación, no debe quedar \"pendiente de aprobar\" altiro, sino que después de decidir comprar.",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 727240547837221,
+        "name" : "Sprint - FamilyGuy - 07-02->07-23"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      }, {
+        "id" : 752877670051420,
+        "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726836529829787,
+        "name" : "8"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 731265121909354,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-07-03T15:48:37.622Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 692418601580984,
+        "name" : "Fairenes Zerpa"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909348,
+          "name" : "Escenario 1 (2 semanas adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-08-01T13:46:47.613Z",
+      "name" : "Realizar modificación de rubros de Distribución",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 731265121909358,
+        "name" : "30"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 723709629633751,
+      "assignee" : {
+        "id" : 720107162269923,
+        "name" : "Christopher Thompson"
+      },
+      "assignee_status" : "inbox",
+      "completed" : true,
+      "completed_at" : "2018-07-31T21:05:05.785Z",
+      "created_at" : "2018-06-26T15:55:05.732Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 720107162269923,
+        "name" : "Christopher Thompson"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 720096004860910,
+          "name" : "Mejoras SIIRA"
+        },
+        "section" : {
+          "id" : 722150618637555,
+          "name" : "Compras:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909348,
+          "name" : "Escenario 1 (2 semanas adicionales):"
+        }
+      }, {
+        "project" : {
+          "id" : 752877670051420,
+          "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+        },
+        "section" : null
+      } ],
+      "modified_at" : "2018-07-31T21:05:06.545Z",
+      "name" : "Mantener foco en grillas cuando se edita una celda y se presiona enter",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 720096004860910,
+        "name" : "Mejoras SIIRA"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      }, {
+        "id" : 752877670051420,
+        "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726836529829806,
+        "name" : "17"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 720096004860908,
+      "assignee" : null,
+      "assignee_status" : "later",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-22T14:14:13.672Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 720107162269912,
+        "name" : "Juan Manuel"
+      }, {
+        "id" : 692418601580984,
+        "name" : "Fairenes Zerpa"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 720096004860910,
+          "name" : "Mejoras SIIRA"
+        },
+        "section" : {
+          "id" : 722150618637555,
+          "name" : "Compras:"
+        }
+      }, {
+        "project" : {
+          "id" : 722150618637484,
+          "name" : "Sprint - FamilyGuy - 06-18->06-29"
+        },
+        "section" : {
+          "id" : 722150618637486,
+          "name" : "To Do:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909348,
+          "name" : "Escenario 1 (2 semanas adicionales):"
+        }
+      }, {
+        "project" : {
+          "id" : 752877670051420,
+          "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+        },
+        "section" : null
+      } ],
+      "modified_at" : "2018-08-01T13:46:32.758Z",
+      "name" : "Aplicar filtros en grillas de compra.",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 720096004860910,
+        "name" : "Mejoras SIIRA"
+      }, {
+        "id" : 722150618637484,
+        "name" : "Sprint - FamilyGuy - 06-18->06-29"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      }, {
+        "id" : 752877670051420,
+        "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726836529829781,
+        "name" : "38"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 731265121909361,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-07-03T16:17:46.439Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909361,
+          "name" : "Escenario 2 (3 semanas adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-07-03T16:17:55.913Z",
+      "name" : "Escenario 2 (3 semanas adicionales):",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 731265121909329,
+      "assignee" : {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      },
+      "assignee_status" : "today",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-07-03T14:24:50.264Z",
+      "due_at" : null,
+      "due_on" : "2018-07-30",
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 720096004860910,
+          "name" : "Mejoras SIIRA"
+        },
+        "section" : {
+          "id" : 722150618637555,
+          "name" : "Compras:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909361,
+          "name" : "Escenario 2 (3 semanas adicionales):"
+        }
+      }, {
+        "project" : {
+          "id" : 752877670051420,
+          "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+        },
+        "section" : null
+      } ],
+      "modified_at" : "2018-07-30T21:07:47.272Z",
+      "name" : "Intervalo variable para reporte de compra proyectada mensual",
+      "notes" : "3 tipos de compras:\n\n    Compra recibida dentro del intervalo\n    Compra \"en tránsito\" (a la fecha de expiración actual esté dentro del intervalo)\n    Compra proyectada: \n",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 720096004860910,
+        "name" : "Mejoras SIIRA"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      }, {
+        "id" : 752877670051420,
+        "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 731073525592660,
+        "name" : "Bloqueo Cliente"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 722150618637557,
+      "assignee" : {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      },
+      "assignee_status" : "today",
+      "completed" : true,
+      "completed_at" : "2018-07-31T18:31:03.661Z",
+      "created_at" : "2018-06-25T19:23:30.024Z",
+      "due_at" : null,
+      "due_on" : "2018-07-23",
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 692418601580984,
+        "name" : "Fairenes Zerpa"
+      }, {
+        "id" : 3702790043180,
+        "name" : "Daniela Albornoz"
+      }, {
+        "id" : 723304615038203,
+        "name" : "Diego Fuenzalida"
+      }, {
+        "id" : 723300802641880,
+        "name" : "Francisco Mejías"
+      }, {
+        "id" : 703204573355936,
+        "name" : "JP Arrau"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 720096004860910,
+          "name" : "Mejoras SIIRA"
+        },
+        "section" : {
+          "id" : 722150618637555,
+          "name" : "Compras:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909361,
+          "name" : "Escenario 2 (3 semanas adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-08-01T13:58:30.371Z",
+      "name" : "Camiones - estimar o definir cantidad promedio de unidades por pallet, podría ser por rubro. SB: generarán la medida estándar.",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 720096004860910,
+        "name" : "Mejoras SIIRA"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726520495408964,
+        "name" : "5"
+      }, {
+        "id" : 731073525592660,
+        "name" : "Bloqueo Cliente"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 722150618637590,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-25T19:23:43.521Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 720096004860910,
+          "name" : "Mejoras SIIRA"
+        },
+        "section" : {
+          "id" : 722150618637554,
+          "name" : "Inventario:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909361,
+          "name" : "Escenario 2 (3 semanas adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-07-03T15:18:13.873Z",
+      "name" : "Poder seleccionar más de un filtro a la vez.",
+      "notes" : "Evaluado para 8 interfaces de usuario",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 720096004860910,
+        "name" : "Mejoras SIIRA"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726836529829801,
+        "name" : "25"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 722150618637457,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-25T17:41:31.784Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909361,
+          "name" : "Escenario 2 (3 semanas adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-07-30T21:07:58.986Z",
+      "name" : "Seguimiento de Decisiones de Compra",
+      "notes" : "Como jefe de los compradores\nQuiero saber el rendimiento de las decisiones de estos\nPara poder medir quién está realizando bien la pega y quién no.\n\nDescripción\nSe debe mostrar",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 721906078595098,
+        "name" : "Obligatorio"
+      }, {
+        "id" : 726520495408966,
+        "name" : "16"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 723709629633749,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-26T15:51:39.140Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 720096004860910,
+          "name" : "Mejoras SIIRA"
+        },
+        "section" : {
+          "id" : 724835639294341,
+          "name" : "Sitio Completo:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909361,
+          "name" : "Escenario 2 (3 semanas adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-07-03T15:26:08.784Z",
+      "name" : "Permitir maximizar grillas (tipo PricingDSS)",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 720096004860910,
+        "name" : "Mejoras SIIRA"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726836529829802,
+        "name" : "9"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 731265121909347,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-07-03T15:24:45.016Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909347,
+          "name" : "Escenario 3 (4 semana adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-07-03T16:18:22.240Z",
+      "name" : "Escenario 3 (4 semana adicionales):",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 722150618637454,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-25T17:38:53.852Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909347,
+          "name" : "Escenario 3 (4 semana adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-07-25T16:15:24.811Z",
+      "name" : "Mostrar Sugerido PRICING, Sugerido Restricciones y Sugerido Sistema",
+      "notes" : "select top 10 * from [Salcobrand].[minmax].[UnrestrictedPricingSuggest] -- SUGERIDO PRICING\n\nselect top 10 * from [Salcobrand].[replenishment].[NextSuggest] --Sugerido con restricciones",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726520495408963,
+        "name" : "18"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 731265121909321,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-07-03T13:38:17.251Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909347,
+          "name" : "Escenario 3 (4 semana adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-07-25T16:15:58.251Z",
+      "name" : "Pintar con color los productos sin matriz de costo informada.",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726836529829766,
+        "name" : "4"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 719289879229016,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-21T21:38:37.225Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 692418601580984,
+        "name" : "Fairenes Zerpa"
+      }, {
+        "id" : 714703814006908,
+        "name" : "Esteban Cea"
+      }, {
+        "id" : 714703814006919,
+        "name" : "Daniela Breguel"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 720096004860910,
+          "name" : "Mejoras SIIRA"
+        },
+        "section" : {
+          "id" : 722150618637554,
+          "name" : "Inventario:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909347,
+          "name" : "Escenario 3 (4 semana adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-07-03T15:29:09.040Z",
+      "name" : "Mantenedor locales, manufacturers y products excluidos",
+      "notes" : "Existen varias tablas para excluir, todas del esquema operation en SB. Evaluar cuáles requieren mantenedor.",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 720096004860910,
+        "name" : "Mejoras SIIRA"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726520495408961,
+        "name" : "10"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 722150618637579,
+      "assignee" : null,
+      "assignee_status" : "later",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-25T19:23:38.789Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 692418601580984,
+        "name" : "Fairenes Zerpa"
+      }, {
+        "id" : 720107162269912,
+        "name" : "Juan Manuel"
+      }, {
+        "id" : 720107162269901,
+        "name" : "Carlos Felipe Andrés Astroza San Martín"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 720096004860910,
+          "name" : "Mejoras SIIRA"
+        },
+        "section" : {
+          "id" : 722150618637554,
+          "name" : "Inventario:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909347,
+          "name" : "Escenario 3 (4 semana adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-07-03T17:59:36.469Z",
+      "name" : "Poder filtrar lo que no es mix activo y descargarlo.",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 720096004860910,
+        "name" : "Mejoras SIIRA"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726836529829766,
+        "name" : "4"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 722150618637556,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-25T19:23:28.533Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 692418601580984,
+        "name" : "Fairenes Zerpa"
+      }, {
+        "id" : 714703814006908,
+        "name" : "Esteban Cea"
+      }, {
+        "id" : 714703814006919,
+        "name" : "Daniela Breguel"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 720096004860910,
+          "name" : "Mejoras SIIRA"
+        },
+        "section" : {
+          "id" : 722150618637553,
+          "name" : "Demanda:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909347,
+          "name" : "Escenario 3 (4 semana adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-07-03T15:29:09.047Z",
+      "name" : "Se solicita una alerta que permita ver productos con promoción detectada y que no fueron informados",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 720096004860910,
+        "name" : "Mejoras SIIRA"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726520495408964,
+        "name" : "5"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 723970437023505,
+      "assignee" : null,
+      "assignee_status" : "later",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-26T21:41:30.041Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 692418601580984,
+        "name" : "Fairenes Zerpa"
+      }, {
+        "id" : 3702790043180,
+        "name" : "Daniela Albornoz"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 720096004860910,
+          "name" : "Mejoras SIIRA"
+        },
+        "section" : {
+          "id" : 722150618637553,
+          "name" : "Demanda:"
+        }
+      }, {
+        "project" : {
+          "id" : 722150618637484,
+          "name" : "Sprint - FamilyGuy - 06-18->06-29"
+        },
+        "section" : {
+          "id" : 722150618637486,
+          "name" : "To Do:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909347,
+          "name" : "Escenario 3 (4 semana adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-07-03T15:29:09.050Z",
+      "name" : "Pronóstico por SKU - Mostrar agregaciones temporales (día, semana, mes)",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 720096004860910,
+        "name" : "Mejoras SIIRA"
+      }, {
+        "id" : 722150618637484,
+        "name" : "Sprint - FamilyGuy - 06-18->06-29"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726836529829766,
+        "name" : "4"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 721683826651694,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-25T14:16:16.166Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909347,
+          "name" : "Escenario 3 (4 semana adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-07-25T16:15:06.583Z",
+      "name" : "Reporte promociones detectadas vs promociones informadas",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 721683826651697,
+      "assignee" : {
+        "id" : 714703814006908,
+        "name" : "Esteban Cea"
+      },
+      "assignee_status" : "later",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-25T15:15:07.066Z",
+      "due_at" : null,
+      "due_on" : "2018-06-27",
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 714703814006908,
+        "name" : "Esteban Cea"
+      }, {
+        "id" : 3702790043180,
+        "name" : "Daniela Albornoz"
+      }, {
+        "id" : 692418601580984,
+        "name" : "Fairenes Zerpa"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 714703868220858,
+          "name" : "SIIRA - Salcobrand"
+        },
+        "section" : null
+      }, {
+        "project" : {
+          "id" : 717501736311430,
+          "name" : "Checklist Gabo"
+        },
+        "section" : {
+          "id" : 717501736311432,
+          "name" : "CheckList post vacaciones:"
+        }
+      }, {
+        "project" : {
+          "id" : 720096004860910,
+          "name" : "Mejoras SIIRA"
+        },
+        "section" : {
+          "id" : 722150618637555,
+          "name" : "Compras:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909347,
+          "name" : "Escenario 3 (4 semana adicionales):"
+        }
+      } ],
+      "modified_at" : "2018-07-03T15:29:09.033Z",
+      "name" : "Estados de Compras Regulares",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 714703868220858,
+        "name" : "SIIRA - Salcobrand"
+      }, {
+        "id" : 717501736311430,
+        "name" : "Checklist Gabo"
+      }, {
+        "id" : 720096004860910,
+        "name" : "Mejoras SIIRA"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 731265121909344,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-07-03T15:35:23.844Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909344,
+          "name" : "Parte del Servicio:"
+        }
+      } ],
+      "modified_at" : "2018-07-03T15:35:25.376Z",
+      "name" : "Parte del Servicio:",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 721906078595097,
+      "assignee" : {
+        "id" : 714703814006908,
+        "name" : "Esteban Cea"
+      },
+      "assignee_status" : "inbox",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-25T16:17:32.713Z",
+      "due_at" : null,
+      "due_on" : "2018-07-06",
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 692418601580984,
+        "name" : "Fairenes Zerpa"
+      }, {
+        "id" : 714703814006908,
+        "name" : "Esteban Cea"
+      }, {
+        "id" : 714703814006919,
+        "name" : "Daniela Breguel"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 714703868220858,
+          "name" : "SIIRA - Salcobrand"
+        },
+        "section" : null
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909344,
+          "name" : "Parte del Servicio:"
+        }
+      } ],
+      "modified_at" : "2018-07-25T16:15:16.584Z",
+      "name" : "Definir Indicadores de Inventario",
+      "notes" : "Definir indicadores de inventario que se deben mostrar en SIIRA",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 714703868220858,
+        "name" : "SIIRA - Salcobrand"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 721906078595098,
+        "name" : "Obligatorio"
+      }, {
+        "id" : 731265121909320,
+        "name" : "Pendiente Tableau"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 721906078595099,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-25T16:19:36.051Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909344,
+          "name" : "Parte del Servicio:"
+        }
+      } ],
+      "modified_at" : "2018-07-25T16:15:22.200Z",
+      "name" : "Implementar indicadores de inventario",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 721906078595098,
+        "name" : "Obligatorio"
+      }, {
+        "id" : 731265121909320,
+        "name" : "Pendiente Tableau"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 723709629633752,
+      "assignee" : {
+        "id" : 3702790043180,
+        "name" : "Daniela Albornoz"
+      },
+      "assignee_status" : "today",
+      "completed" : true,
+      "completed_at" : "2018-07-18T22:03:38.974Z",
+      "created_at" : "2018-06-26T20:10:36.980Z",
+      "due_at" : null,
+      "due_on" : "2018-07-10",
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 3702790043180,
+        "name" : "Daniela Albornoz"
+      }, {
+        "id" : 692418601580984,
+        "name" : "Fairenes Zerpa"
+      }, {
+        "id" : 720107162269912,
+        "name" : "Juan Manuel"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 720096004860910,
+          "name" : "Mejoras SIIRA"
+        },
+        "section" : {
+          "id" : 722150618637553,
+          "name" : "Demanda:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909344,
+          "name" : "Parte del Servicio:"
+        }
+      } ],
+      "modified_at" : "2018-07-18T22:03:39.596Z",
+      "name" : "Enviar pronósticos por SKU y por SKU/Local semanalmente por FTP",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 720096004860910,
+        "name" : "Mejoras SIIRA"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ {
+        "id" : 732146729352383,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : true,
+        "completed_at" : "2018-07-03T22:44:20.517Z",
+        "created_at" : "2018-07-03T21:18:24.062Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 692418601580984,
+          "name" : "Fairenes Zerpa"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-03T22:44:20.622Z",
+        "name" : "Enviar Pronóstico por SKU",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 723709629633752,
+          "name" : "Enviar pronósticos por SKU y por SKU/Local semanalmente por FTP"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      }, {
+        "id" : 732146729352384,
+        "assignee" : null,
+        "assignee_status" : "upcoming",
+        "completed" : false,
+        "completed_at" : null,
+        "created_at" : "2018-07-03T21:18:35.487Z",
+        "due_at" : null,
+        "due_on" : null,
+        "followers" : [ {
+          "id" : 692418601580984,
+          "name" : "Fairenes Zerpa"
+        } ],
+        "hearted" : false,
+        "hearts" : [ ],
+        "liked" : false,
+        "likes" : [ ],
+        "memberships" : [ ],
+        "modified_at" : "2018-07-03T21:18:44.560Z",
+        "name" : "Enviar Pronóstico SKU/Local",
+        "notes" : "",
+        "num_hearts" : 0,
+        "num_likes" : 0,
+        "parent" : {
+          "id" : 723709629633752,
+          "name" : "Enviar pronósticos por SKU y por SKU/Local semanalmente por FTP"
+        },
+        "projects" : [ ],
+        "start_on" : null,
+        "subtasks" : [ ],
+        "tags" : [ ],
+        "workspace" : {
+          "id" : 2647249338119,
+          "name" : "pricing.cl"
+        }
+      } ],
+      "tags" : [ ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 717501736311442,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-20T15:41:29.208Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 720096004860910,
+          "name" : "Mejoras SIIRA"
+        },
+        "section" : {
+          "id" : 724835639294341,
+          "name" : "Sitio Completo:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909344,
+          "name" : "Parte del Servicio:"
+        }
+      } ],
+      "modified_at" : "2018-07-03T16:10:27.447Z",
+      "name" : "forzar redirect a https",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 720096004860910,
+        "name" : "Mejoras SIIRA"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726520495408965,
+        "name" : "6"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 717501736311441,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-20T15:19:14.372Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 720096004860910,
+          "name" : "Mejoras SIIRA"
+        },
+        "section" : {
+          "id" : 724835639294341,
+          "name" : "Sitio Completo:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909344,
+          "name" : "Parte del Servicio:"
+        }
+      } ],
+      "modified_at" : "2018-07-03T16:10:27.450Z",
+      "name" : "Página de Excepciones",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 720096004860910,
+        "name" : "Mejoras SIIRA"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726836529829766,
+        "name" : "4"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 723709629633750,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-06-26T15:53:41.033Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 720107162269901,
+        "name" : "Carlos Felipe Andrés Astroza San Martín"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 720096004860910,
+          "name" : "Mejoras SIIRA"
+        },
+        "section" : {
+          "id" : 722150618637555,
+          "name" : "Compras:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 731265121909344,
+          "name" : "Parte del Servicio:"
+        }
+      } ],
+      "modified_at" : "2018-07-03T16:11:35.500Z",
+      "name" : "GES - Filtro \"Estado de Compra\" tiene problemas de Formato",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 720096004860910,
+        "name" : "Mejoras SIIRA"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726520495408969,
+        "name" : "2"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 764668352930443,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-08-01T13:43:39.474Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 764668352930443,
+          "name" : "Adicionales:"
+        }
+      } ],
+      "modified_at" : "2018-08-01T13:43:40.791Z",
+      "name" : "Adicionales:",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 757006889010235,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-07-25T16:30:12.360Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 721906078595091,
+          "name" : "Backlog SIIRA - Family Guy"
+        },
+        "section" : {
+          "id" : 721906078595093,
+          "name" : "Demanda:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 764668352930443,
+          "name" : "Adicionales:"
+        }
+      } ],
+      "modified_at" : "2018-08-01T13:44:08.197Z",
+      "name" : "Mostrar Precio Lista y Precio Efectivo en gráfico de Pronóstico por SKU",
+      "notes" : "Considerar que para Precio Efectivo, si es igual a 0, usar nulo, de esta forma el gráfico no mostrará la linea yéndose a cero, sino que se mantendrá consistente.\n\nEn ambos casos, la función de agregación debiese ser un promedio ponderado por unidades.",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 721906078595091,
+        "name" : "Backlog SIIRA - Family Guy"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726520495408965,
+        "name" : "6"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 757006889010234,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-07-25T16:27:40.958Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 721906078595091,
+          "name" : "Backlog SIIRA - Family Guy"
+        },
+        "section" : {
+          "id" : 721906078595093,
+          "name" : "Demanda:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 764668352930443,
+          "name" : "Adicionales:"
+        }
+      } ],
+      "modified_at" : "2018-08-01T13:44:08.200Z",
+      "name" : "Filtro de Posicionamiento y Fabricante en Pronósticos por SKU",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 721906078595091,
+        "name" : "Backlog SIIRA - Family Guy"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726836529829766,
+        "name" : "4"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 758500815167099,
+      "assignee" : {
+        "id" : 720107162269901,
+        "name" : "Carlos Felipe Andrés Astroza San Martín"
+      },
+      "assignee_status" : "inbox",
+      "completed" : true,
+      "completed_at" : "2018-08-01T16:24:27.670Z",
+      "created_at" : "2018-07-26T15:25:58.752Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 720107162269901,
+        "name" : "Carlos Felipe Andrés Astroza San Martín"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 721906078595091,
+          "name" : "Backlog SIIRA - Family Guy"
+        },
+        "section" : {
+          "id" : 722150618637455,
+          "name" : "Compras:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 764668352930443,
+          "name" : "Adicionales:"
+        }
+      }, {
+        "project" : {
+          "id" : 752877670051420,
+          "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+        },
+        "section" : {
+          "id" : 755411264235823,
+          "name" : "Fuera del Sprint:"
+        }
+      } ],
+      "modified_at" : "2018-08-01T16:24:28.343Z",
+      "name" : "Genéricos - Destacar SKU licitado en grilla de compras",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 721906078595091,
+        "name" : "Backlog SIIRA - Family Guy"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      }, {
+        "id" : 752877670051420,
+        "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726836529829766,
+        "name" : "4"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 758769915450965,
+      "assignee" : {
+        "id" : 720107162269901,
+        "name" : "Carlos Felipe Andrés Astroza San Martín"
+      },
+      "assignee_status" : "inbox",
+      "completed" : true,
+      "completed_at" : "2018-08-01T21:18:06.588Z",
+      "created_at" : "2018-07-26T17:59:51.267Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 720107162269923,
+        "name" : "Christopher Thompson"
+      }, {
+        "id" : 720107162269901,
+        "name" : "Carlos Felipe Andrés Astroza San Martín"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 721906078595091,
+          "name" : "Backlog SIIRA - Family Guy"
+        },
+        "section" : {
+          "id" : 722150618637455,
+          "name" : "Compras:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 764668352930443,
+          "name" : "Adicionales:"
+        }
+      }, {
+        "project" : {
+          "id" : 752877670051420,
+          "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+        },
+        "section" : {
+          "id" : 755411264235823,
+          "name" : "Fuera del Sprint:"
+        }
+      } ],
+      "modified_at" : "2018-08-01T21:18:36.305Z",
+      "name" : "Compras Normales - Mostrar resumen de la compra antes de pasarla al carrito de compras",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 721906078595091,
+        "name" : "Backlog SIIRA - Family Guy"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      }, {
+        "id" : 752877670051420,
+        "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726520495408964,
+        "name" : "5"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 761149416440559,
+      "assignee" : {
+        "id" : 9439979848522,
+        "name" : "Jorge Ibacache"
+      },
+      "assignee_status" : "inbox",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-07-30T13:31:34.883Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      }, {
+        "id" : 9439979848522,
+        "name" : "Jorge Ibacache"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 721906078595091,
+          "name" : "Backlog SIIRA - Family Guy"
+        },
+        "section" : {
+          "id" : 722150618637455,
+          "name" : "Compras:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 764668352930443,
+          "name" : "Adicionales:"
+        }
+      }, {
+        "project" : {
+          "id" : 752877670051420,
+          "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+        },
+        "section" : {
+          "id" : 755411264235823,
+          "name" : "Fuera del Sprint:"
+        }
+      } ],
+      "modified_at" : "2018-08-01T15:41:40.028Z",
+      "name" : "Autorización de OOCC debe mostrar el detalle de la OC y destacar los que generan sobre-stock.",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 721906078595091,
+        "name" : "Backlog SIIRA - Family Guy"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      }, {
+        "id" : 752877670051420,
+        "name" : "Sprint - FamilyGuy - 07-23 -> 08-03"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726520495408965,
+        "name" : "6"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    }, {
+      "id" : 761149416440560,
+      "assignee" : null,
+      "assignee_status" : "upcoming",
+      "completed" : false,
+      "completed_at" : null,
+      "created_at" : "2018-07-30T13:51:29.916Z",
+      "due_at" : null,
+      "due_on" : null,
+      "followers" : [ {
+        "id" : 2647249201907,
+        "name" : "Gabriel Espinoza"
+      } ],
+      "hearted" : false,
+      "hearts" : [ ],
+      "liked" : false,
+      "likes" : [ ],
+      "memberships" : [ {
+        "project" : {
+          "id" : 721906078595091,
+          "name" : "Backlog SIIRA - Family Guy"
+        },
+        "section" : {
+          "id" : 722150618637455,
+          "name" : "Compras:"
+        }
+      }, {
+        "project" : {
+          "id" : 731265121909342,
+          "name" : "Aprobadas por Cliente"
+        },
+        "section" : {
+          "id" : 764668352930443,
+          "name" : "Adicionales:"
+        }
+      } ],
+      "modified_at" : "2018-08-01T14:09:38.320Z",
+      "name" : "Destacar SKU sin inventario objetivo",
+      "notes" : "",
+      "num_hearts" : 0,
+      "num_likes" : 0,
+      "parent" : null,
+      "projects" : [ {
+        "id" : 721906078595091,
+        "name" : "Backlog SIIRA - Family Guy"
+      }, {
+        "id" : 731265121909342,
+        "name" : "Aprobadas por Cliente"
+      } ],
+      "start_on" : null,
+      "subtasks" : [ ],
+      "tags" : [ {
+        "id" : 726836529829766,
+        "name" : "4"
+      } ],
+      "workspace" : {
+        "id" : 2647249338119,
+        "name" : "pricing.cl"
+      }
+    } ]
+  }
