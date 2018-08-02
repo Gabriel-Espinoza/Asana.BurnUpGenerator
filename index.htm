@@ -1,0 +1,139 @@
+<html>
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+    </script>
+
+
+  <!--Load the AJAX API-->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+
+
+    Date.daysBetween = function (date1, date2) {   //Get 1 day in milliseconds   
+      var one_day = 1000 * 60 * 60 * 24;    // Convert both dates to milliseconds
+      var date1_ms = date1.getTime();
+      var date2_ms = date2.getTime();    // Calculate the difference in milliseconds  
+      var difference_ms = date2_ms - date1_ms;        // Convert back to days and return   
+      return Math.round(difference_ms / one_day);
+    }
+
+    Date.addDays = function (date, amount) {
+      var tzOff = date.getTimezoneOffset() * 60 * 1000,
+        t = date.getTime(),
+        d = new Date(),
+        tzOff2;
+
+      t += (1000 * 60 * 60 * 24) * amount;
+      d.setTime(t);
+
+      tzOff2 = d.getTimezoneOffset() * 60 * 1000;
+      if (tzOff != tzOff2) {
+        var diff = tzOff2 - tzOff;
+        t += diff;
+        d.setTime(t);
+      }
+
+      return d;
+    }
+
+
+    // Load the Visualization API and the corechart package.
+    google.charts.load('current', { 'packages': ['corechart'] });
+
+    // Set a callback to run when the Google Visualization API is loaded.
+    google.charts.setOnLoadCallback(drawChart);
+
+    // Callback that creates and populates a data table,
+    // instantiates the pie chart, passes in the data and
+    // draws it.
+    function drawChart() {
+
+      $.getJSON("data.json", function (res) {
+
+        // depuramos el json de retorno y nos quedamos con lo que necesitamos
+        var chartData = [];
+        for (let i = 0; i < res.data.length; i++) {
+          if (res.data[i].tags.length > 0) {
+            for (let j = 0; j < res.data[i].tags.length; j++) {
+              let storyPoints = parseInt(res.data[i].tags[j].name);
+              if (!isNaN(storyPoints)) {
+                chartData.push({
+                  storyPoints: storyPoints,
+                  completed: res.data[i].completed,
+                  created_at: new Date(res.data[i].created_at),
+                  completed_at: new Date(res.data[i].completed_at),
+                });
+                break;
+              }
+            }
+          }
+        }
+
+        // calculamos la cantidad de días hábiles que tiene (excluye sábad y domingo)
+        let inicio = new Date("2018-07-02T00:00");
+        let fin = new Date("2018-08-17T00:00");
+        let hoy = new Date();
+        
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('number', 'Dias');
+        data.addColumn('number', 'Trabajo Restante');
+        data.addColumn('number', 'Trabajo Completado');
+
+        let dias = 0;
+        for (let i = inicio; i < Date.addDays(fin, 1); i = Date.addDays(i, 1)) {
+          if (i.getDay() === 0 || i.getDay() === 6) {
+            continue;
+          }
+
+          let workInProgress = 0;
+          let workCompleted = 0;
+          for (let j = 0; j < chartData.length; j++) {
+            if(chartData[j].created_at <= i){
+              workInProgress += chartData[j].storyPoints;
+              if(chartData[j].completed && chartData[j].completed_at <= i){
+                workCompleted += chartData[j].storyPoints;
+              }
+            }
+          }
+          data.addRows([[dias, workInProgress, workCompleted]]);
+
+          dias++;
+        }
+
+        // Set chart options
+        var options = {
+          'title': 'Burnup de Proyecto "Aprobadas por Cliente"',
+          'width': 1300,
+          'height': 700,
+          'interpolateNulls': true,
+          'theme': 'material',
+          'hAxis': {
+            'gridlines': {
+              'count': dias
+            }
+          }
+        };
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      });
+    }
+
+  </script>
+
+
+
+
+</head>
+
+<body>
+  <!--Div that will hold the pie chart-->
+  <div id="chart_div"></div>
+</body>
+
+</html>
