@@ -3,23 +3,6 @@
 <head>
   <script src="asana-min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>
-    var token = "Bearer 0/d89198a5faf0d66137cae08a01d75b4d";
-    var baseurl = "https://app.asana.com/api/1.0/users/";
-    
-    $.ajax({
-      type:"GET",
-      url: baseurl + "me",
-      data:"json",
-      beforeSend: function(request){
-        request.setRequestHeader("Authorization", token);
-      },
-      success: function(msg) {
-      },
-      error: function(msg){
-      }
-    });
-  </script>
 
   
 

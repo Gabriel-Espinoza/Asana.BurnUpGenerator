@@ -1,116 +1,112 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="A simple yet powerful Asana Agile Dashboard">
-    <meta name="author" content="Gabriel Espinoza Erices; www.gabrielespinoza.cl">
 
-    <title>Asana Simple Agile Dashboard</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="A simple yet powerful Asana Agile Dashboard">
+  <meta name="author" content="Gabriel Espinoza Erices; www.gabrielespinoza.cl">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/dashboard.css" rel="stylesheet">
-  </head>
+  <title>Asana Simple Agile Dashboard</title>
 
-  <body>
-    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-      <a class="navbar-brand col-sm-12 col-md-12 mr-0" href="#">Asana Simple Agile Dashboard</a>
-    </nav>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/dashboard.css" rel="stylesheet">
+</head>
 
-    <div class="container-fluid">
-      <div class="row">
-        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-          <div class="sidebar-sticky">
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">
-                  <span data-feather="home"></span>
-                  Dashboard <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span data-feather="file"></span>
-                  Orders
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span data-feather="shopping-cart"></span>
-                  Products
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span data-feather="users"></span>
-                  Customers
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span data-feather="bar-chart-2"></span>
-                  Reports
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span data-feather="layers"></span>
-                  Integrations
-                </a>
-              </li>
-            </ul>
+<body>
+  <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-sm-12 col-md-12 mr-0" href="#">Asana Simple Agile Dashboard</a>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+        <div class="sidebar-sticky">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">
+                <span data-feather="home"></span>
+                Dashboard
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="settings"></span>
+                Configuración
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+          <h1 class="h2" id="chartTitle">BurnUp</h1>
+        </div>
+        <div class="row">
+          <div class="col-sm-10">
+            <div class="row">
+              <div class="form-group col-sm-2 offset-md-4">
+                <label for="beginDate">Begin Date</label>
+                <input type="date" class="form-control" id="beginDate">
+              </div>
+              <div class="form-group col-sm-2">
+                <label for="endDate">End Date</label>
+                <input type="date" class="form-control" id="endDate">
+              </div>
+            </div>
+            <div class="row" id="canvasContainer">
+              
+            </div>
           </div>
-        </nav>
+          <div class="col-sm-2">
+            <form>
+              <div class="form-group">
+                <label for="token">Asana Personal Access Token</label>
+                <input type="text" class="form-control" id="token" placeholder="Asana Token" value="0/d89198a5faf0d66137cae08a01d75b4d">
+                <small id="tokenHelp" class="form-text text-muted">
+                  Developer Token as described
+                  <a href="https://asana.com/developers/documentation/getting-started/auth?missingtranslation=es#personal-access-token">here</a>
+                </small>
+              </div>
+              <button type="button" id="submitToken" class="btn btn-primary">Submit Token</button>
 
-        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-            <h1 class="h2">Dashboard</h1>
+              <div class="form-group">
+                <label for="workspaces">Select Worspace</label>
+                <select class="form-control" id="workspaces"></select>
+              </div>
+
+              <div class="form-group">
+                <label for="teams">Select Team</label>
+                <select class="form-control" id="teams"></select>
+              </div>
+
+              <div class="form-group">
+                <label for="projects">Select Project</label>
+                <select class="form-control" id="projects"></select>
+              </div>
+            </form>
           </div>
-          <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
-        </main>
-      </div>
+        </div>
+      </main>
     </div>
+  </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+  <script src="asanaController.js"></script>
+  <script src="index_new.js"></script>
+  <script src="date.exts.js"></script>
+  <script src="chartController.js"></script>
 
-    <!-- Icons -->
-    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
-    <script>
-      feather.replace()
-    </script>
+  <!-- Icons -->
+  <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+  <script>
+    feather.replace();
+  </script>
 
-    <!-- Graphs -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
-    <script>
-      var ctx = document.getElementById("myChart");
-      var myChart = new Chart(ctx, {
-        type: 'line',
-        data: {
-          labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-          datasets: [{
-            data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
-            lineTension: 0,
-            backgroundColor: 'transparent',
-            borderColor: '#007bff',
-            borderWidth: 4,
-            pointBackgroundColor: '#007bff'
-          }]
-        },
-        options: {
-          scales: {
-            yAxes: [{
-              ticks: {
-                beginAtZero: false
-              }
-            }]
-          },
-          legend: {
-            display: false,
-          }
-        }
-      });
-    </script>
-  </body>
+</body>
+
 </html>
