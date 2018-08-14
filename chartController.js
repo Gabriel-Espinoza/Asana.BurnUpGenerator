@@ -17,8 +17,8 @@ var chartController = {
             let current = {
               effort: effort,
               completed: res.data[i].completed,
-              created_at: new Date(res.data[i].created_at),
-              completed_at: new Date(res.data[i].completed_at)
+              created_at: new Date(res.data[i].created_at.substring(0, res.data[i].created_at.indexOf("T")) + "T00:00"),
+              completed_at: res.data[i].completed_at != null ? new Date(res.data[i].completed_at.substring(0, res.data[i].completed_at.indexOf("T")) + "T00:00") : null
             };
 
             if (
