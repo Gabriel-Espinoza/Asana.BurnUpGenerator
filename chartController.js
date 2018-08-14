@@ -3,6 +3,11 @@ var chartController = {
   minDate: null,
   maxDate: null,
   init: function(res) {
+
+    chartController.chartData= [];
+    chartController.minDate= null;
+    chartController.maxDate= null;
+
     // Transforms Asana format to something usable
     for (let i = 0; i < res.data.length; i++) {
       if (res.data[i].tags.length > 0) {
@@ -61,9 +66,6 @@ var chartController = {
       );
       let obj = { t: current, y: 0 };
       for (let i = 0; i < chartController.chartData.length; i++) {
-        console.log(
-          chartController.chartData[i].created_at + "  ||  " + auxDate
-        );
         if (chartController.chartData[i].created_at <= auxDate)
           obj.y += chartController.chartData[i].effort;
       }
@@ -99,10 +101,10 @@ var chartController = {
     return serie;
   },
 
-  drawChart: function() {
+  drawBurnUp: function() {
 
     $("#canvasContainer").html("");
-    $("#canvasContainer").append("<canvas class='my-4 w-100' id='myChart' width='900' height='380'></canvas>");
+    $("#canvasContainer").append("<canvas class='my-4 w-100' id='myChart'></canvas>");
     
 
     var ctx = document.getElementById("myChart");
@@ -118,7 +120,7 @@ var chartController = {
             backgroundColor: "#B71C1C40",
             borderColor: "#B71C1C",
             // borderWidth: 4,
-            pointBackgroundColor: "#007bff"
+            pointBackgroundColor: "#B71C1C"
           },
           {
             label: "Trabajo Realizado",
@@ -132,6 +134,9 @@ var chartController = {
         ]
       },
       options: {
+        tooltips:{
+          mode: 'label'
+        },
         scales: {
           yAxes: [
             {

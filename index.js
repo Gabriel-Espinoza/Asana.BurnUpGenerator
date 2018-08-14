@@ -36,13 +36,20 @@ $(function() {
 
   //On Team Change => We load Team's projects
   $("#teams").change(function() {
-    asanaController.projects
-      .getByTeamId($("#teams").val())
+    asanaController.projects.getByTeamId($("#teams").val())
       .then(function(response) {
-        addOptions(response.data, $("#projects"));
-      })
-      .catch(function(response) {
-        alert("Error: " + response.responseText);
+        // addOptions(response.data, $("#projects"));
+
+        $.each(response.data, function(key, value) {
+          let obj = jsonInNotesParser.deserializeObject(response.data[key].notes);
+          
+          $("#projects").append(
+            $("<option></option>")
+              .attr("value", value.id)
+              .text(value.name)
+              .data("data-jsonNotes", obj)
+          );
+        });
       });
   });
 
@@ -50,30 +57,54 @@ $(function() {
 
   //On Project Change => We load all the tasks
   $("#projects").change(function() {
-    asanaController.projects
-      .getTasks($("#projects").val())
+    asanaController.projects.getTasks($("#projects").val())
       .then(function(response) {
-        $("#chartTitle").text(
-          "BurnUp: " +
-            $("#projects")
-              .find(":selected")
-              .text()
-        );
+
+        //actualizamos título del BurnUp
+        $("#chartTitle").text("BurnUp: " +$("#projects").find(":selected").text());
         chartController.init(response);
 
-        let day = ("0" + chartController.minDate.getDate()).slice(-2);
-        let month = ("0" + (chartController.minDate.getMonth() + 1)).slice(-2);
-        let year = chartController.minDate.getFullYear();
-        let date = year + "-" + month + "-" + day;
+        //actualizamos la fecha "desde" del gráfico. Si existe en la metadata
+        let day, month, year, date, auxDate;
+        let metadata = $("#projects").find(":selected").data("data-jsonNotes");
+        if(metadata == null || typeof(metadata.beginDate) === 'undefined')
+        {
+          auxDate = chartController.minDate;
+          day = ("0" + auxDate.getDate()).slice(-2);
+          month = ("0" + (auxDate.getMonth() + 1)).slice(-2);
+          year = auxDate.getFullYear();
+          date = year + "-" + month + "-" + day;
+        }
+        else {
+          auxDate = new Date(metadata.beginDate + "T00:00");
+          day = ("0" + auxDate.getDate()).slice(-2);
+          month = ("0" + (auxDate.getMonth() + 1)).slice(-2);
+          year = auxDate.getFullYear();
+          date = year + "-" + month + "-" + day;
+          chartController.minDate = auxDate;
+        }
         $("#beginDate").val(date);
 
-        day = ("0" + chartController.maxDate.getDate()).slice(-2);
-        month = ("0" + (chartController.maxDate.getMonth() + 1)).slice(-2);
-        year = chartController.maxDate.getFullYear();
-        date = year + "-" + month + "-" + day;
+
+        if(metadata == null || typeof(metadata.endDate) === 'undefined')
+        {
+          auxDate = chartController.maxDate;
+          day = ("0" + auxDate.getDate()).slice(-2);
+          month = ("0" + (auxDate.getMonth() + 1)).slice(-2);
+          year = auxDate.getFullYear();
+          date = year + "-" + month + "-" + day;
+        }
+        else{
+          auxDate = new Date(metadata.endDate + "T00:00");
+          day = ("0" + auxDate.getDate()).slice(-2);
+          month = ("0" + (auxDate.getMonth() + 1)).slice(-2);
+          year = auxDate.getFullYear();
+          date = year + "-" + month + "-" + day;
+          chartController.maxDate = auxDate;
+        }
         $("#endDate").val(date);
 
-        chartController.drawChart();
+        chartController.drawBurnUp();
       });
   });
 
@@ -81,12 +112,15 @@ $(function() {
   $("#beginDate").change(function(){
     var date = new Date(this.value + "T00:00");
     chartController.minDate = date;
-    chartController.drawChart();
+
+    asanaController.projects.updateDates($("#projects").val(),  {beginDate: $("#beginDate").val(), endDate:$("#endDate").val()});
+    chartController.drawBurnUp();
   });
 
   $("#endDate").change(function(){
     var date = new Date(this.value + "T00:00");
     chartController.maxDate = date;
-    chartController.drawChart();
+    asanaController.projects.updateDates($("#projects").val(),  {beginDate: $("#beginDate").val(), endDate:$("#endDate").val()});
+    chartController.drawBurnUp();
   });
 });
