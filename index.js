@@ -1,4 +1,12 @@
 $(function() {
+
+  var query = window.location.search.substring(1);
+  if(query.length >= 1)
+  {
+    var token = query.substr(query.indexOf("=")+1);
+    $("#token").val(token);
+  }
+
   function addOptions(data, $target) {
     $.each(data, function(key, value) {
       $target.append(
