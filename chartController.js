@@ -100,6 +100,39 @@ var chartController = {
 
     return serie;
   },
+  getForecast: function() {
+    let auxDate = chartController.minDate;
+    let serie = [];
+    
+    let days = -1;
+    while (auxDate <= chartController.maxDate) {
+      days ++;
+      auxDate = Date.addDays(auxDate, 1);
+    }
+    let work = chartController.getWorkInProgress();
+    let maxValue = work[work.length - 1].y;
+    
+    const m = maxValue / days;
+
+    auxDate = chartController.minDate;
+    let cont = 0;
+    while (auxDate <= chartController.maxDate) {
+      let current = new Date(
+        auxDate.getFullYear(),
+        auxDate.getMonth(),
+        auxDate.getDate()
+      );
+
+      let obj = { t: current, y: m * cont };
+      cont++;
+
+      serie.push(obj);
+
+      auxDate = Date.addDays(auxDate, 1);
+    }
+
+    return serie;
+  },
 
   drawBurnUp: function() {
 
@@ -130,6 +163,16 @@ var chartController = {
             borderColor: "#2196F3",
             // borderWidth: 4,
             pointBackgroundColor: "#007bff"
+          }
+          ,
+          {
+            label: "Forecast",
+            data: chartController.getForecast(),
+            lineTension: 0,
+            //backgroundColor: "#000000",
+            borderColor: "#000000",
+            // borderWidth: 4,
+            pointBackgroundColor: "#000000"
           }
         ]
       },
