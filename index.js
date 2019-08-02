@@ -17,8 +17,10 @@ $(function() {
     });
   }
 
-  //On Click => We load workspaces
+   //On Click => We load workspaces
   $("#submitToken").click(function() {
+    setTimeout(function() {  $("#workspaces").attr('disabled',false);
+   }, 3000);
     asanaController.token = $("#token").val();
     asanaController.workspaces
       .get()
@@ -32,6 +34,7 @@ $(function() {
 
   //On Workspace Change => We load Workspace's Teams
   $("#workspaces").change(function() {
+    $("#teams").attr('disabled',false);
     asanaController.teams
       .getByWorkspaceId($("#workspaces").val())
       .then(function(response) {
@@ -40,10 +43,14 @@ $(function() {
       .catch(function(response) {
         alert("Error: " + response.responseText);
       });
+
+
+      
   });
 
   //On Team Change => We load Team's projects
   $("#teams").change(function() {
+    $("#projects").attr('disabled',false);
     asanaController.projects.getByTeamId($("#teams").val())
       .then(function(response) {
         // addOptions(response.data, $("#projects"));

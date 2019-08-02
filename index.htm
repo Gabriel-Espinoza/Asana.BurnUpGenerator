@@ -40,12 +40,12 @@
         </div>
       </nav>
 
-      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+      <main role="main" class="col-md-8 ml-sm-auto col-lg-10 px-4">
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
           <h1 class="h2" id="chartTitle">BurnUp</h1>
         </div>
         <div class="row">
-          <div class="col-sm-10">
+          <div class="col-sm-9">
             <div class="row">
               <div class="form-group col-sm-2 offset-md-4">
                 <label for="beginDate">Begin Date</label>
@@ -60,7 +60,7 @@
               
             </div>
           </div>
-          <div class="col-sm-2">
+          <div class="col-sm-3">
             <form>
               <div class="form-group">
                 <label for="token">Asana Personal Access Token</label>
@@ -70,21 +70,30 @@
                   <a href="https://asana.com/developers/documentation/getting-started/auth?missingtranslation=es#personal-access-token">here</a>
                 </small>
               </div>
-              <button type="button" id="submitToken" class="btn btn-primary">Submit Token</button>
+              <button type="button" id="submitToken" class="btn btn-primary btn-sm btn-block">Submit Token</button>
 
               <div class="form-group">
+                <div class="clearfix"></div>
+                <br>
+                <h6>Options</h6>
                 <label for="workspaces">Select Worspace</label>
-                <select class="form-control" id="workspaces"></select>
+                <select class="form-control" id="workspaces" disabled>
+                  <option value="" selected disabled>Please select</option>
+                </select>
               </div>
 
               <div class="form-group">
                 <label for="teams">Select Team</label>
-                <select class="form-control" id="teams"></select>
+                <select class="form-control" id="teams" disabled>
+                  <option value="" selected disabled>Please select</option>
+                </select>
               </div>
 
               <div class="form-group">
                 <label for="projects">Select Project</label>
-                <select class="form-control" id="projects"></select>
+                <select class="form-control" id="projects" disabled>
+                  <option value="" selected disabled>Please select</option>
+                </select>
               </div>
             </form>
           </div>
