@@ -11,7 +11,7 @@ $(function() {
     $.each(data, function(key, value) {
       $target.append(
         $("<option></option>")
-          .attr("value", value.id)
+          .attr("value", value.gid)
           .text(value.name)
       );
     });
@@ -43,9 +43,6 @@ $(function() {
       .catch(function(response) {
         alert("Error: " + response.responseText);
       });
-
-
-      
   });
 
   //On Team Change => We load Team's projects
@@ -60,7 +57,7 @@ $(function() {
           
           $("#projects").append(
             $("<option></option>")
-              .attr("value", value.id)
+              .attr("value", value.gid)
               .text(value.name)
               .data("data-jsonNotes", obj)
           );
