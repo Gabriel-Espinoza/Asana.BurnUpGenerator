@@ -1,5 +1,5 @@
 var asanaController = {
-  baseUri: "http://cors.io/?https://app.asana.com/api/1.0/",
+  baseUri: "https://cors.io/?https://app.asana.com/api/1.0/",
   token: "",
   callApi: function(localizedUuri, parameters, requestType) {
     return new Promise(function(resolve, reject) {
